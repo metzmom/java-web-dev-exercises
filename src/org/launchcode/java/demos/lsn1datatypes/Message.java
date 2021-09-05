@@ -5,11 +5,13 @@ public class Message {
     public static String getMessage(String lang) {
 
         if (lang.equals("sp")) {
-            return "¡Hola, Mundo!";
+            return "¡Hola, Cuidad Mundo!";
         } else if (lang.equals("fr")) {
-            return "Bonjour, le monde!";
+            return "Bonjour, le city le monde!";
+        } else if (lang.equals("jive")) {
+            return "Jive talking, keepin it real!";
         } else {
-            return "Hello, World!";
+            return "Hello,City World!";
         }
     }
 }
